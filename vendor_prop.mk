@@ -15,6 +15,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=480
 
+# Camera
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.vendor.camera.eis.enable=1 \
+    persist.vendor.camera.ois.disable=1
+
 # Sensors
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.hardware.sensors=chef_sprout \
