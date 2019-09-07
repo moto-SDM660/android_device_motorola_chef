@@ -41,7 +41,7 @@ BOARD_VENDORIMAGE_PARTITION_SIZE := 536870912
 ENABLE_VENDOR_RIL_SERVICE := false
 
 #PRODUCT_SHIPPING_API_LEVEL indicates the first api level, device has been commercially launched on.
-PRODUCT_SHIPPING_API_LEVEL := 27
+#PRODUCT_SHIPPING_API_LEVEL := 27
 
 # inherit from the proprietary version
 -include vendor/motorola/chef/BoardConfigVendor.mk
