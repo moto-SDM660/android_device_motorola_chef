@@ -16,16 +16,13 @@
 
 # Inherit some common potato stuff.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
-$(call inherit-product, vendor/potato/config/common_full_phone.mk)
+$(call inherit-product, vendor/cos/config/common_full_phone.mk)
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Device
 $(call inherit-product, device/motorola/chef/device.mk)
-
-# Installs gsi keys into ramdisk, to boot a GSI with verified boot.
-$(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 
 # A/B updater
 AB_OTA_UPDATER := true
@@ -71,7 +68,7 @@ endif
 
 # Device identifiers
 PRODUCT_DEVICE := chef
-PRODUCT_NAME := potato_chef
+PRODUCT_NAME := cos_chef
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := Motorola One Power
 PRODUCT_MANUFACTURER := Motorola

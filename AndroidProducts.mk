@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/potato_chef.mk
+    $(LOCAL_DIR)/cos_chef.mk
