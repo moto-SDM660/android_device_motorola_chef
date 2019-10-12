@@ -1,7 +1,6 @@
 #
 # vendor props for chef
 #
-
 # Audio
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.audio.calfile0=/vendor/etc/acdbdata/Bluetooth_cal.acdb \
