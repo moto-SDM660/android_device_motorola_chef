@@ -68,7 +68,7 @@ endif
 
 # Device identifiers
 PRODUCT_DEVICE := chef
-PRODUCT_NAME := osp_chef
+PRODUCT_NAME := aosp_chef
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := Motorola One Power
 PRODUCT_MANUFACTURER := Motorola
