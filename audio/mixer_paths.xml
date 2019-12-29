@@ -798,6 +798,11 @@
         <ctl name="AFE_PCM_RX Audio Mixer MultiMedia7" value="1" />
     </path>
 
+    <path name="speaker-and-headphones-hifi-filter">
+	<path name="headphones" />
+        <path name="speaker" />
+    </path>
+	
     <path name="compress-offload-playback2 usb-headphones">
         <ctl name="USB_AUDIO_RX Audio Mixer MultiMedia7" value="1" />
     </path>
@@ -848,6 +853,10 @@
         <path name="compress-offload-playback3 bt-sco" />
     </path>
 
+    <path name="headphones-hifi-filter">
+        <path name="headphones" />
+    </path>	
+	
     <path name="compress-offload-playback3 speaker-and-hdmi">
         <path name="compress-offload-playback3 hdmi" />
         <path name="compress-offload-playback3" />
